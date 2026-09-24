@@ -4,75 +4,62 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.7"
   overlay_image: /assets/images/blurry-rust.jpg
-  #actions:
-  #  - label: "<i class='fas fa-download'></i> Install now"
-  #    url: "/docs/quick-start-guide/"
+  actions:
+    - label: "Discuss a project"
+      url: "/contact/"
 excerpt: >
-  _We vitalise and strengthen software._
+  _We design and build new software, and make existing software last._
 
 intro:
-  - image_path:
-    title: Revive and Survive
+  - title: Software engineering from idea to long-term use
     excerpt: >
-       Our mission is to breathe life into legacy code, ensuring longevity in the ever-evolving landscape of technology. We specialise in crafting maintainable, mission-critical, and secure software solutions. We don't just refactor; we _revive_, ensuring that your software stands the test of time.
+      Code Revival Lab designs and implements technical software, from embedded
+      systems to microservices. We also modernise existing codebases, with a focus
+      on maintainability, correctness, and performance.
 
 expertise:
-  - image_path: /assets/images/wordcloud.jpg
-    alt: "placeholder image 2"
-    title: "Expertise"
+  - image_path: /assets/images/dust-disk-soft.jpeg
+    alt: "Dust-covered floppy disk"
+    title: "Technical depth"
     excerpt: >
-       At Code Revival Lab, our expertise extends into the realms of **scientific and technical software**, with a specialized focus on **high-performance** applications. We thrive in crafting solutions for **restricted and embedded systems**, ensuring efficiency even in resource-constrained environments.
-       We excel in languages crucial to modern software development, including **Rust**, **C/C++**, and **Python**.
-    url: "/portfolio"
+      Our work spans scientific and technical software, high-performance
+      applications, and resource-constrained embedded systems. We often work in
+      **Rust**, **C/C++**, and **Python**, choosing tools to fit the project.
+    url: "/portfolio/"
     btn_class: "btn--primary"
-    btn_label: "See Portfolio"
-
-feature_row_services:
-  - image_path:
-    alt: "placeholder image 2"
-    title: "Services"
-    excerpt: >
-       We assist to strengthen and vitalise your software. We also aid in starting up small to mid-sized projects and offer general consultancy in software engineering
-    url: "/services"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "See selected work"
 
 feature_row:
-  - image_path: /assets/images/dust-disk-soft.jpeg
-    title: "Code Revival"
-    alt: "customizable"
+  - image_path: /assets/images/workflow.jpg
+    alt: "Development workflow"
+    title: "New software"
     excerpt: >
-      Comprehensive analysis and enhancement of legacy code written in C, C++, and Python. Integration of modern practices to extend the lifespan and functionality of existing codebases.
-    #url: "/docs/configuration/"
-    #btn_class: "btn--primary"
-    #btn_label: "Learn more"
+      Design and implementation of new software projects, including embedded
+      firmware, microservices, and the interfaces between them.
   - image_path: /assets/images/apes-to-man.jpeg
-    alt: "fully responsive"
-    title: "Migration and Translation"
-    excerpt: "Complete rewriting and translation of code into **Rust** or **modern C++** to enhance performance, reliability, and maintainability."
-    #url: "/docs/layouts/"
-    #btn_class: "btn--primary"
-    #btn_label: "Learn more"
-  - image_path: /assets/images/code-refactor.jpg
-    alt: "100% free"
-    title: "Refactoring"
+    alt: "Illustration of human evolution with gears"
+    title: "Modernisation"
     excerpt: >
-      In-depth code refactoring to improve readability, scalability, and overall code quality. We follow best practices and recommendations for your given language using linting tools and static analysis.
-    #url: "/docs/license/"
-    #btn_class: "btn--primary"
-    #btn_label: "Learn more"
-
-feature_row_services:
-  - image_path:
-    alt: "placeholder image 2"
-    title: "Services"
+      Understand, refactor, migrate, and extend existing systems while
+      preserving the behaviour that matters.
+  - image_path: /assets/images/unit-test-light.jpg
+    alt: "Software testing"
+    title: "Engineering support"
     excerpt: >
-      We assist to strengthen and vitalise your software. We also aid in starting up small to mid-sized projects and offer general consultancy in software engineering.
-    url: "/services"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+      Architecture, code review, testing, build systems, and performance work
+      for teams that need focused technical help.
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="expertise" type="center" %}
-{% include feature_row id="feature_row_services" type="center" %}
 {% include feature_row %}
+
+## Your choice on AI
+
+We use AI tools when a client wants them and they suit the work. They can help us
+explore code, draft changes, and handle repetitive tasks. Engineers remain
+responsible for design, critical review, and verification. **AI use is optional:**
+we can work without it when a project calls for that. We agree on the approach
+with you before work begins.
+
+[Explore our services](/services/){: .btn .btn--primary}
+[Discuss a project](/contact/){: .btn}

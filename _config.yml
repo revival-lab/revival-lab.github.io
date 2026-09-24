@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Code Revival Lab
 email: info@coderevival.org
-description: "Our mission is to breathe life into legacy code, ensuring longevity in the ever-evolving landscape of technology. We specialise in crafting maintainable, mission-critical, and secure software solutions. We don’t just refactor; we revive, ensuring that your software stands the test of time."
+description: "Code Revival Lab designs and builds technical software, including embedded systems and microservices, and modernises existing codebases. AI use is optional and guided by critical human review."
 github_username: revival-lab
 minimal_mistakes_skin: default
 search: false

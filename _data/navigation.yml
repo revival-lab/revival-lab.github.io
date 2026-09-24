@@ -1,10 +1,9 @@
 main:
   - title: "Services"
     url: /services/
-  - title: "Portfolio"
+  - title: "Selected Work"
     url: /portfolio/
   - title: "About"
     url: /about/
   - title: "Contact"
     url: /contact/
-
