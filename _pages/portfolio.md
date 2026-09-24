@@ -20,6 +20,11 @@ We have recently ported most of Faunus to Rust and [GPU-accelerated WASM](https:
 
 {% include video id="mFOooBQE3mg" provider="youtube" %}
 
+### Faster Voronoi Tesselation: A C++ to Rust port
+
+Voronota-LT is an efficient Voronoi Tesselation method to investigate surfaces and contacts in molecules.
+We [ported the C++ code to Rust](https://github.com/mlund/voronota-ltr) and added new Python bindings.
+The port is faster than the original due to exceptionally good load balancing in parallel Rust.
 
 ### Compiler Backend Development
 
