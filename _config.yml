@@ -19,14 +19,14 @@ description: "Code Revival Lab designs and builds technical software, including 
 github_username: revival-lab
 minimal_mistakes_skin: default
 search: false
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.28.1
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -46,10 +46,8 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
   - jekyll-email-protect
